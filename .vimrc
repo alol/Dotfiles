@@ -79,3 +79,6 @@ autocmd FileType ruby set omnifunc=rubycomplete#Complete
 " Store temp files out of the way
 set backupdir=~/.vim-tmp,/tmp
 set directory=~/.vim-tmp,/tmp
+
+" my most frequently made typo - I don't think I can will this one away :( :(
+cmap W w
