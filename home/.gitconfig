@@ -1,0 +1,18 @@
+[color]
+	ui = true
+[user]
+	name = Alan Oliver
+	email = alanoliver@gmail.com
+[github]
+	user = alol
+[alias]
+    st = status
+    amend = commit --amend
+    aa  = add -A
+    c  = commit -v
+    cv  = commit -v
+    co = checkout
+    m = merge
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+	excludesfile = /Users/alan/.gitignore_global
