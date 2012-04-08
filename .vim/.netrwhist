@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/alan/Work/ForwardTest/lib/ImageEditor'
-let g:netrw_dirhist_2='/Users/alan/.rbenv'
-let g:netrw_dirhist_3='/Users/alan/Downloads/clojure-koans-2011-09-24_13-25/src'
-let g:netrw_dirhist_4='/Users/alan/Downloads/clojure-koans-2011-09-24_13-25/src/koans'
-let g:netrw_dirhist_5='/Users/alan/Desktop/ForwardTest/lib/ImageEditor'
-let g:netrw_dirhist_6='/Users/alan/Projects/Ruby/rspec_example/lib'
-let g:netrw_dirhist_7='/Users/alan/Projects/node/express/HotPie'
