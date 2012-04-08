@@ -68,6 +68,9 @@ set smarttab
 autocmd FileType ruby setlocal foldmethod=syntax shiftwidth=2 tabstop=2 expandtab
 autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 autocmd FileType py   setlocal foldmethod=indent shiftwidth=4 tabstop=4 expandtab
+autocmd FileType coffee setl shiftwidth=2 expandtab
+autocmd FileType jade setl shiftwidth=2 expandtab
+autocmd FileType javascript setl shiftwidth=4 expandtab
 
 " Omnicomplete
 autocmd FileType python set omnifunc=pythoncomplete#Complete
