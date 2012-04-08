@@ -5,9 +5,9 @@ set t_Co=256
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
 
-let mapleader=","                 " Map , to leader - it's easier to reach
+call pathogen#infect()            " Pathogen
 
-"runtime macros/matchit.vim        " Load the matchit plugin.
+let mapleader=","                 " Map , to leader - it's easier to reach
 
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode you're in.
@@ -38,7 +38,7 @@ set nowritebackup                 " And again.
 
 set laststatus=2                  " Show the status line all the time
 
-let g:Powerline_symbols = 'fancy'     " enable pretty symbols for powerline
+let g:Powerline_symbols = 'fancy' " enable pretty symbols for powerline
 
 "set invisible characters (similar to textmate)
 set listchars=tab:▸\ ,eol:¬
@@ -54,9 +54,6 @@ map <up> <nop>
 map <down> <nop>
 map <left> <nop>
 map <right> <nop>
-
-" Pathogen
-call pathogen#infect()
 
 " Default tab settings
 set tabstop=4                    " Global tab width.
