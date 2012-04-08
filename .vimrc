@@ -56,7 +56,7 @@ map <left> <nop>
 map <right> <nop>
 
 " Pathogen
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 " Default tab settings
 set tabstop=4                    " Global tab width.
