@@ -22,3 +22,6 @@
 [submodule "home/.vim/bundle/vim-ack"]
 	path = home/.vim/bundle/vim-ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "home/.vim/bundle/vim-powerline"]
+	path = home/.vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
