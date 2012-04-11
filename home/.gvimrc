@@ -1,1 +1,7 @@
-/Users/alan/.homesick/repos/alol/Dotfiles/home/.gvimrc
+" MacVim Theme
+
+colorscheme solarized
+
+" Settings
+
+set guioptions-=T  " disable toolbar
