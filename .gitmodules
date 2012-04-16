@@ -28,6 +28,6 @@
 [submodule "home/.vim/bundle/vim-nerdtree"]
 	path = home/.vim/bundle/vim-nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "home/.vim/bundles/vim-zencoding"]
-	path = home/.vim/bundles/vim-zencoding
+[submodule "home/.vim/bundle/vim-zencoding"]
+	path = home/.vim/bundle/vim-zencoding
 	url = https://github.com/mattn/zencoding-vim.git
