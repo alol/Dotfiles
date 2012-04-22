@@ -37,3 +37,6 @@
 [submodule "home/.vim/bundle/vim-ruby-conque"]
 	path = home/.vim/bundle/vim-ruby-conque
 	url = https://github.com/skwp/vim-ruby-conque.git
+[submodule "home/.vim/bundle/vim-conque"]
+	path = home/.vim/bundle/vim-conque
+	url = https://github.com/rson/vim-conque.git
