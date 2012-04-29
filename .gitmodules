@@ -40,3 +40,6 @@
 [submodule "home/.vim/bundle/vim-conque"]
 	path = home/.vim/bundle/vim-conque
 	url = https://github.com/rson/vim-conque.git
+[submodule "home/.vim/bundle/vim-jade"]
+	path = home/.vim/bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
