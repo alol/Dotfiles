@@ -43,3 +43,6 @@
 [submodule "home/.vim/bundle/vim-jade"]
 	path = home/.vim/bundle/vim-jade
 	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "home/.vim/bundle/vim-tabluar"]
+	path = home/.vim/bundle/vim-tabluar
+	url = https://github.com/godlygeek/tabular.git
