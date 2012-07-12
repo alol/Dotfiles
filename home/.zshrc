@@ -42,3 +42,8 @@ source $HOME/.apikeys
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin:/usr/local/rvm/bin:/opt/local/bin:/usr/local/mysql/bin
 eval "$(rbenv init -)"
+
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib
+
+export $BUNDLE_EDITOR=mvim
