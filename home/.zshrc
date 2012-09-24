@@ -40,10 +40,12 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.apikeys
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin:/usr/local/rvm/bin:/opt/local/bin:/usr/local/mysql/bin
-eval "$(rbenv init -)"
-
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin:/usr/local/rvm/bin:/opt/local/bin:/usr/local/mysql/bin:~/lib/play-2.0.3:/usr/local/share/npm/bin
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
-export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib
 
-export $BUNDLE_EDITOR=mvim
+source /Users/alan/.rvm/scripts/rvm
+#export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib
+
+alias ws="python -m SimpleHTTPServer"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
