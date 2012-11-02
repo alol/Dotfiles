@@ -52,3 +52,6 @@
 [submodule "home/.vim/bundle/vim-go"]
 	path = home/.vim/bundle/vim-go
 	url = https://github.com/uggedal/go-vim
+[submodule "home/.vim/bundle/syntastic-vim"]
+	path = home/.vim/bundle/syntastic-vim
+	url = https://github.com/scrooloose/syntastic
