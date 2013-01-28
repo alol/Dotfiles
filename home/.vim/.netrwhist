@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/alan/work/php-test'
+let g:netrw_dirhist_2='/Users/alan/Dropbox/Work/career/vzaar/anagram'
+let g:netrw_dirhist_3='/Users/alan/work/php-test'
+let g:netrw_dirhist_4='/Users/alan/Downloads/redSnapperTest/Question2'

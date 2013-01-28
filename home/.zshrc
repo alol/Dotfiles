@@ -49,3 +49,7 @@ source /Users/alan/.rvm/scripts/rvm
 alias ws="python -m SimpleHTTPServer"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/gems/ruby-1.9.3-p327/bin # Add RVM gem path
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

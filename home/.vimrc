@@ -5,7 +5,25 @@ set t_Co=256
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
 
-call pathogen#infect()            " Pathogen
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-rails'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'jnurmine/Zenburn'
+Bundle 'mileszs/ack.vim'
+Bundle 'Lokaltog/vim-powerline'
+Bundle 'scrooloose/nerdtree'
+Bundle 'mattn/zencoding-vim'
+Bundle 'rosenfeld/conque-term'
+Bundle 'skwp/vim-ruby-conque'
+Bundle 'godlygeek/tabular'
+Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/syntastic'
+Bundle 'othree/xml.vim'
 
 let mapleader=","                 " Map , to leader - it's easier to reach
 
